@@ -1,4 +1,4 @@
-pring:
+spring:
   application:
     name: zuul
     
@@ -10,15 +10,11 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
 zuul:
   retryable: true
+
 #zuul:
-#  routes:
+#  routes:  
 #    item-service: /item-service/**
 #    user-service: /user-service/**
 #    order-service: /order-service/**
@@ -27,10 +23,3 @@ ribbon:
   ReadTimeout: 1000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 500
