@@ -2,7 +2,8 @@ spring:
   application:
     name: item-service
     
-#server:   
+#server:
+#7777777777777777
 #  port: 8001
   
 eureka:
