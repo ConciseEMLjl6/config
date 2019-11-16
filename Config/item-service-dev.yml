@@ -12,7 +12,8 @@ eureka:
 ---
 spring:
   profiles: item1
-    
+    #烧烤萨芬尽快哈框架鲨科技的
+    #数据库哈弗看见啥肯定是减肥
 server:
   port: 8001
 ---
