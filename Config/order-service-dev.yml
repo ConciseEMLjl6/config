@@ -3,6 +3,7 @@ spring:
     name: order-service
     
 server:
+99999999999999
   port: 8201
     
 eureka:
